@@ -38,7 +38,9 @@ const MainPage = () => {
                     </div>
                 )}
                 {mode === "second" && (
-                    <div><IndividualOrders/></div>
+                    <div className="container bg-info text-white">
+                        <IndividualOrders/>
+                    </div>
                 )}
             </div>
         </div>
